@@ -47,6 +47,10 @@ h1 {
     justify-content: center;
 }
 
+#sizeSlider {
+    accent-color: rgb(95, 208, 104);
+}
+
 button {
     background-color: rgb(95, 208, 104);
     color: rgb(75, 134, 115);
@@ -56,5 +60,9 @@ button {
 }
 
 button:hover {
-    background-color: rgb(80, 180, 89);
+    transform: scale(1.1) perspective(1px)
+}
+
+button:focus {
+    background-color: rgb(76, 163, 84);
 }

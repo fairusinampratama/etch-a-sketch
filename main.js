@@ -42,6 +42,7 @@ function resetBoard() {
   let board = document.querySelector(".board");
   let squares = board.querySelectorAll("div");
   squares.forEach((div) => (div.style.backgroundColor = "white"));
+  color = "black";
 }
 
 document.querySelector(".mode").addEventListener("click", () => {
